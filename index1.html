@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exclusive Clothing</title>
+    <link rel="shortcut icon" href="Image/Logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style1.css" />
+</head>
+
+<body>
+    <div id="nav">
+        <div id="nav-part1">
+            <div class="big-img"><img src="Image/Image1.png" alt=""></div>
+            <div class="small-img"><img src="Image/Logo2.png" alt=""></div>
+            <!-- <img src="Image/Image1.png" alt="" class="big-img">
+            <img src="Image/Logo.png" alt="" class="small-img"> -->
+        </div>
+        <div id="nav-part2">
+            <div id="links">
+                <a href="#">Shop <i class="ri-arrow-right-up-line"></i></a>
+                <a href="#page2">Products</a>
+                <a href="#page3">Featured</a>
+            </div>
+            <div id="icons">
+                <!-- <a href="amazon.com"><i class="ri-menu-line" ></i></a> -->
+                <i class="ri-menu-line" ></i>
+                <i class="ri-shopping-cart-line"></i>
+            </div>
+        </div>
+    </div>
+    <div id="cursor"></div>
+    <div id="main">
+        <div id="page1">
+            <h1>Fashion</h1>
+            <h1>Is The Future</h1>
+            <div id="videocontainer">
+                <div id="play">PLAY</div>
+                <video autoplay loop muted src="Video/Video1.mp4"></video>
+            </div>
+        </div>
+        
+        <div id="page2">
+            <div id="elem1" class="elem">
+                <img data-scroll data-scroll-speed="1"
+                src="https://images.pexels.com/photos/1374128/pexels-photo-1374128.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <div data-scroll data-scroll-speed="-2" class="dets">
+                    <div class="dots"></div>
+                    <div class="mob-hide">SHOP</div>
+                    <div class="elem-name"><a href="#">WATCHES</a></div>
+                    <div><i class="ri-arrow-drop-right-line"></i></div>
+                </div>
+            </div>
+            <div id="elem2" class="elem">
+                <img 
+                src="https://images.pexels.com/photos/4736017/pexels-photo-4736017.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <div data-scroll data-scroll-speed="-2" class="dets">
+                    <div class="dots"></div>
+                    <div class="mob-hide">SHOP</div>
+                    <div class="elem-name"><a href="#">PERFUME</a></div>
+                    <div><i class="ri-arrow-drop-right-line"></i></div>
+                </div>
+            </div>
+            <div id="elem3" class="elem">
+                <img 
+                src="https://images.pexels.com/photos/6945830/pexels-photo-6945830.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <div data-scroll data-scroll-speed="-2" class="dets">
+                    <div class="dots"></div>
+                    <div class="mob-hide">SHOP</div>
+                    <div class="elem-name"><a href="#">COLLECTION</a></div>
+                    <div><i class="ri-arrow-drop-right-line"></i></div>
+                </div>
+            </div>
+        </div>
+        <div id="page3">
+
+            <div class="child" id="child1">
+                <img src="Image/Image6.png" alt="">
+            </div>
+            <div class="child" id="child2">
+                <img src="Image/Image 10.png" alt="">
+            </div>
+            <div class="child" id="child3">
+                
+                <img src="Image/Image8.png" alt="">
+            </div>
+            <div class="child" id="child4">
+                
+                <img src="Image/Image9.png" alt="">
+            </div>
+        </div>
+        <div id="page4"></div>
+    </div>
+</body>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+    integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+    integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="script1.js"></script>
