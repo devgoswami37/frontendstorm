@@ -249,7 +249,8 @@ body {
     justify-content: space-evenly;
     flex-wrap: wrap;
     border-bottom: 50px;
-    
+    overscroll-behavior-x: none;
+    overflow-x: hidden;
 }
 
 .child {
