@@ -9,7 +9,10 @@
     color: #fff;
     background-color: black;
 }
-
+@font-face {
+    font-family: 'Futura';
+    src: url(./Futura);
+}
 html,
 body {
     width: 100%;
@@ -224,6 +227,7 @@ body {
     justify-content: space-evenly;
     flex-wrap: wrap;
     border-bottom: 50px;
+    overflow-x: hidden;
 }
 
 .child {
