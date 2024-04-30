@@ -270,7 +270,7 @@ body {
     width: 100%;
 }
 
-@media (max-width:400px) {
+@media (max-width:430px) {
     #nav-part1 .big-img img{
         display: none;
     }
