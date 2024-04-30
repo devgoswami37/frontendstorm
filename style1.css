@@ -4,7 +4,10 @@
     box-sizing: border-box;
     font-family: 'Gilroy';
 }
-
+@font-face {
+    font-family: 'Futura';
+    src: url(./Futura-Bold.ttf);
+}
 *::selection {
     color: #fff;
     background-color: black;
